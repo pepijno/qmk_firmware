@@ -1,3 +1,9 @@
+# How to use
+
+* run `nix-shell`
+* wait a couple of minutes
+* run `qmk flash -c -kb xd75 -km pepijno`
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
