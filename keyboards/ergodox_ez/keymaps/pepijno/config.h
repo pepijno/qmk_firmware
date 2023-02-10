@@ -1,0 +1,13 @@
+#pragma once
+
+#include "../../config.h"
+
+#undef TAPPING_TERM
+#undef MOUSEKEY_INTERVAL
+#undef MOUSEKEY_MAX_SPEED
+#undef MOUSEKEY_TIME_TO_MAX
+#define IGNORE_MAP_TAP_INTERRUPT
+#define TAPPING_TERM 150
+#define MOUSEKEY_INTERVAL 5
+#define MOUSEKEY_MAX_SPEED 1
+#define MOUSEKEY_TIME_TO_MAX 20

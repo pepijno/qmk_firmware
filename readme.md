@@ -2,7 +2,7 @@
 
 * run `nix-shell`
 * wait a couple of minutes
-* run `qmk flash -c -kb xd75 -km pepijno`
+* run `qmk flash -c -kb xd75 -km pepijno` or `qmk flash -c -kb ergodox_ez/base -km pepijno`
 
 # Quantum Mechanical Keyboard Firmware
 
