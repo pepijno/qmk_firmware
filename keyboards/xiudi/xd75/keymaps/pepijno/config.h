@@ -11,9 +11,7 @@
 /* #define TAPPING_TERM_PER_KEY */
 /* #define IGNORE_MOD_TAP_INTERRUPT */
 /* #define PERMISSIVE_HOLD */
-#include "../../config.h"
- 
-#define IGNORE_MOD_TAP_INTERRUPT
+
 #define TAPPING_TERM 150
 #define MOUSEKEY_INTERVAL 5
 #define MOUSEKEY_MAX_SPEED 1
