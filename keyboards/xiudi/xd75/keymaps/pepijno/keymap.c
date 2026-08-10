@@ -21,13 +21,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [2] = LAYOUT_ortho_5x15(
         KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,   KC_NO,
         QK_BOOTLOADER, KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, KC_NO,   KC_AGAIN, KC_PSTE, KC_COPY, KC_CUT,  KC_UNDO,
-        KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,    KC_MS_L, KC_MS_U, KC_MS_D, KC_MS_R,
-        KC_LGUI,       KC_LALT, KC_LCTL, KC_LSFT, KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,    KC_WH_L, KC_WH_U, KC_WH_D, KC_WH_R,
-        KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, KC_BTN2, KC_BTN1,  KC_BTN3, KC_NO,   KC_NO,   KC_NO
+        KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,    MS_LEFT, MS_UP,   MS_DOWN, MS_RGHT,
+        KC_LGUI,       KC_LALT, KC_LCTL, KC_LSFT, KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,    MS_WHLL, MS_WHLU, MS_WHLD, MS_WHLR,
+        KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, MS_BTN2, MS_BTN1,  MS_BTN3, KC_NO,   KC_NO,   KC_NO
     ),
     [3] = LAYOUT_ortho_5x15(
         KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
-        QK_BOOTLOADER, KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, KC_NO,   RGB_TOG, RGB_VAI, RGB_SAI, RGB_HUI, RGB_MOD,
+        QK_BOOTLOADER, KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, KC_NO,   RM_TOGG, RM_VALU, RM_SATU, RM_HUEU, RM_NEXT,
         KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,   KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT,
         KC_LGUI,       KC_LALT, KC_LCTL, KC_LSFT, KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, KC_NO,   OU_AUTO, KC_NO,   KC_NO,   KC_NO,   KC_NO,
         KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO, KC_MSTP, KC_MPLY, KC_MUTE, KC_NO,   KC_NO,   KC_NO
@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_UNDO, KC_CUT,  KC_COPY, KC_PSTE, KC_AGAIN, KC_NO,   KC_NO, KC_NO,   KC_NO, KC_NO,   KC_AGAIN, KC_PSTE, KC_COPY, KC_CUT,  KC_UNDO,
         KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, KC_NO,    KC_NO,   KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,    KC_RSFT, KC_RCTL, KC_RALT, KC_RGUI,
         KC_UNDO, KC_CUT,  KC_COPY, KC_PSTE, KC_AGAIN, KC_NO,   KC_NO, KC_NO,   KC_NO, KC_NO,   KC_AGAIN, KC_PSTE, KC_COPY, KC_CUT,  KC_UNDO,
-        KC_NO,   KC_NO,   KC_NO,   KC_BTN3, KC_BTN1,  KC_BTN2, KC_NO, KC_NO,   KC_NO, KC_BTN2, KC_BTN1,  KC_BTN3, KC_NO,   KC_NO,   KC_NO
+        KC_NO,   KC_NO,   KC_NO,   MS_BTN3, MS_BTN1, MS_BTN2, KC_NO, KC_NO,   KC_NO, MS_BTN2, MS_BTN1,  MS_BTN3, KC_NO,   KC_NO,   KC_NO
     ),
     [5] = LAYOUT_ortho_5x15(
         KC_NO,   KC_NO, KC_NO, KC_NO,  KC_NO,   KC_NO,   KC_NO, KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,

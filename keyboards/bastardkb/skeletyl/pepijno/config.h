@@ -1,7 +1,5 @@
 #pragma once
 
-#include "../../v2/splinky_3/config.h"
-
 #define USB_VBUS_PIN GP19
 #define SERIAL_PIO_USE_PIO1
 #define WS2812_PIO_USE_PIO1
